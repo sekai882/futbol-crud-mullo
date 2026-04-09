@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface FutbolistaRepository extends JpaRepository<Futbolista, Long> {
-    // Aquí ya tenemos métodos como save(), findAll(), deleteById(), etc.
+    // save(), findAll(), deleteById(), etc.
 }
